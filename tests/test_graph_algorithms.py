@@ -21,10 +21,10 @@ def load_module(filename: str, module_name: str):
     return module
 
 
-A1_2 = load_module("A1 2.py", "a1_2")
-A1_3 = load_module("A1 3.py", "a1_3")
-A1_4 = load_module("A1 4.py", "a1_4")
-A1_5 = load_module("A1 5.py", "a1_5")
+A1_2 = load_module("A1_2.py", "a1_2")
+A1_3 = load_module("A1_3.py", "a1_3")
+A1_4 = load_module("A1_4.py", "a1_4")
+A1_5 = load_module("A1_5.py", "a1_5")
 
 
 GRAPH_CONTENT = textwrap.dedent(

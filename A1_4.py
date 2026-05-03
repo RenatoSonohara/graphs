@@ -58,7 +58,7 @@ def format_dijkstra_output(graph: Graph, source: int) -> str:
 
 def main() -> None:
     if len(sys.argv) != 3:
-        raise SystemExit("Uso: python3 'A1 4.py' <arquivo_grafo> <vertice_s>")
+        raise SystemExit("Uso: python3 'A1_4.py' <arquivo_grafo> <vertice_s>")
 
     graph = Graph(sys.argv[1])
     source = int(sys.argv[2])

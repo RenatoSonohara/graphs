@@ -52,7 +52,7 @@ def format_floyd_output(graph: Graph) -> str:
 
 def main() -> None:
     if len(sys.argv) != 2:
-        raise SystemExit("Uso: python3 'A1 5.py' <arquivo_grafo>")
+        raise SystemExit("Uso: python3 'A1_5.py' <arquivo_grafo>")
 
     graph = Graph(sys.argv[1])
     print(format_floyd_output(graph))

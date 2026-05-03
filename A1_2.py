@@ -34,7 +34,7 @@ def format_bfs_output(levels: List[List[int]]) -> str:
 
 def main() -> None:
     if len(sys.argv) != 3:
-        raise SystemExit("Uso: python3 'A1 2.py' <arquivo_grafo> <vertice_s>")
+        raise SystemExit("Uso: python3 'A1_2.py' <arquivo_grafo> <vertice_s>")
 
     graph_file = sys.argv[1]
     source = int(sys.argv[2])
