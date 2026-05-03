@@ -17,7 +17,7 @@ def _normalize_edge(u: int, v: int) -> Edge:
 def has_eulerian_cycle(graph: Graph) -> bool:
     non_zero = [v for v in graph.vertices() if graph.grau(v) > 0]
     if not non_zero:
-        return True
+        return False
     if any(graph.grau(v) % 2 != 0 for v in graph.vertices()):
         return False
 
